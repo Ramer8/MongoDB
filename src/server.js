@@ -18,6 +18,9 @@ app.get("/api/healthy", (req, res) => {
 
 app.use("/api", router)
 
+//app.use(router)
+//si no pongo nada dentro cambia la ruta a => localhost:3500/auth/login
+
 dbConnection()
   .then(() => {
     console.log("Database connected")
