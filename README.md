@@ -21,3 +21,12 @@ $ npm i dotenv -D
 ```
   "type": "module",
 ```
+
+```bash
+$ npm i mongoose
+```
+
+Add to .env
+
+PORT = 4000
+MONGO_URI=mongodb://root:root@127.0.0.1:27017/test?authSource=admin
