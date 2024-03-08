@@ -111,6 +111,4 @@ export const login = async (req, res) => {
       error: error,
     })
   }
-
-  ////
 }
